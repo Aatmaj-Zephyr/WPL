@@ -1,0 +1,53 @@
+<html>
+    <body>
+        <div class="text">Name</div> 
+        <input type="text" id="name">   
+        <div class="text">password</div> 
+        <input type="text" id="password">  
+        <div class="text">email</div> 
+        <input type="text" id="email">  
+        <div class="text">phone</div> 
+        <input type="text" id="phone">  
+        <br>
+        <button onclick="go()">submit</button>
+        <script>
+            function go(){
+                if(validate()==true){
+                    //code here
+                }
+            }
+            function validate(){
+               var name= document.getElementById("name").value;
+               var password= document.getElementById("password").value;
+               var email= document.getElementById("email").value;
+               var phone= document.getElementById("phone").value;
+                console.log(name);
+               if(name.length<6){
+                window.alert("Name is less than 6 letters");
+                return false;
+               }
+               if(name.match("[0-9]")){
+                window.alert("Name cant contain numbers");
+                return false;   
+               }
+               if(password.length<6){
+                window.alert("Password is less than 6 letters");
+                return false;
+               }
+           
+               if(!email.match("[@][a-z]+[.]com$")){
+                window.alert("Invalid Email");
+                return false;
+               }
+               if(phone.match("[^0-9]")){
+                window.alert("Invalid Number");
+                return false;
+               }
+               if(phone.length!=10){
+                window.alert("Invalid Number Length");
+                return false;
+               }
+            }
+        </script>
+    </body>
+</html>
