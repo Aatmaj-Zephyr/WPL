@@ -1,9 +1,22 @@
 # WPL
 
 
+___________
+
+
+This repository contains Lab experiments of Web programming Laboratory covering HTML, CSS, Javascript and PHP.
+Code and writeups are provided.
+
+For other engineering repositories please refer :
+1) https://github.com/Aatmaj-Zephyr/4th-sem-svu
+2) https://github.com/Aatmaj-Zephyr/3rd-sem-svu
+
+Also please star the repository and follow me 👍🏻
+
+___________
 How to contribute?
 
-Please feel free to contribute. Please make sure the code is clear, variables are well named and the comments are proper.
+Please feel free to contribute. Please make sure the code is clear, the variables are well-named and the comments are proper.
 
 You can contribute in either of the ways.
 
